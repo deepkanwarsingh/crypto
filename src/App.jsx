@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios';
 import './App.css'
-const dotenv = require('dotenv')
+
 
 function App() {
   const [search, setSearch] = useState("")
